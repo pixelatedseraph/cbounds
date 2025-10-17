@@ -8,8 +8,9 @@ typedef struct i_array
     size_t size;
     int* arr;
 } i_array;
-void ckstrfun(size_t );
+i_array* ckstrfun(size_t );
 int* safearray(size_t);
-void at(int);
+void get(int,i_array*);
+void push(int, int , i_array*);
 #endif
 
