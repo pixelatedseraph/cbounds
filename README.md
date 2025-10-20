@@ -1,2 +1,2 @@
 # cbounds
-static checked bound checker..
+static checked bound checker
